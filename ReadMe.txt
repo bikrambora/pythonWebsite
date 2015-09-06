@@ -1,16 +1,9 @@
 Created by Bikram Bora, Kim Liew and Michael Lumley
 
-NOTE: Internet Explorer is not fully surported Chrome is recommended
-
-We were facing browser caching issues on Internet Explorer.
-
-
-
 
 Instructions to rn the web site:
-1. Extract the Assignment 3 folder into in IVLE workspace
-2. Serve the home.html page
-3. Enjoy
+1. Serve the home.html page
+2. Enjoy
 
 
 
