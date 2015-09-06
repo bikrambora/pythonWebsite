@@ -1,0 +1,164 @@
+/* ALL */
+
+html, body {
+    background-color: #D1D1D1;
+    height: 100%;
+}
+
+#holder {
+    min-height: 100%;
+    position: relative;
+}
+
+#body {
+    padding-bottom: 100px; /* height of footer */
+}
+
+.navbar{
+    background: #fff;
+}
+
+.navbar a {
+  color: #5a5a5a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+h1.title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+h3.title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #265B6A;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.vcenter {
+    margin-top: 40px;
+}
+.footer p {
+    font-size: 15px;
+    color: #f7f7f7;
+    text-align: center;    
+}
+
+/* HOME */
+
+.title-banner {
+  height: 400px;
+  background-position: center;
+  background-image: url("Images/Title_banner.jpg");
+  background-repeat: no-repeat;
+  background-color: #265B6A;
+}
+
+.learn {
+  background-color: #f7f7f7;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.learn h3 {
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.learn p {
+    font-size: 18px;
+}
+
+.learn a {
+  color: #00b0ff;
+}
+
+
+/* Visualisztion */
+
+.hypo-banner {
+  height: 400px;
+  background-position: center;
+  background-image: url("Images/Hypo_banner.jpg");
+  background-repeat: no-repeat;
+  background-color: #265B6A;
+}
+
+#first-row {
+    margin-top: 50px;
+}
+
+.container-fluid {
+    margin-bottom: 70px;
+    width: auto;
+}
+
+/* PIVOT */
+
+.pivot-title {
+  height: 400px;
+  background-position: center;
+  background-image: url("Images/Pivot_banner.jpg");
+  background-repeat: no-repeat;
+  background-color: #265B6A;
+}
+
+#pivot-form {
+    margin-top: 50px;
+}
+
+#fVal {
+    margin-top: 10px;
+}
+
+.sel2 {
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.table-borderless {
+    position: relative; 
+    text-align: right;
+    table-layout: auto;
+    background-color: #7D7D7D;
+    border: none;
+}
+
+.center-table {
+  margin: 60px auto;
+  float: none;
+}
+
+.table-borderless thead, th {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+
+.table-borderless td {
+    min-width: 75px;
+}
+
+.sql .container {
+    position: relative;
+    margin-top: 20px;
+}

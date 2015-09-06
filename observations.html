@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>          
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel='stylesheet' type='text/css'>
+        <link href="bootstrap-3.3.4-dist/css/bootstrap.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/data.js"></script>
+        <script src="app.js"></script> 
+        <title>Data Spectrum</title>
+    </head>
+    
+    <body>
+        <div id="holder">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <ul class="nav navbar-nav pull-right">
+                        <li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li class="active"><a href="observations.html"><span class="glyphicon glyphicon-list-alt"></span> Observations</a></li>
+                        <li><a href="pivot.html"><span class="glyphicon glyphicon-stats"></span> Pivot Table</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div id="body">
+                <div class="hypo-banner"></div>
+                
+                <div class="container-fluid">
+                    <div class="row" id="first-row">
+                        <div class="col-md-3 col-md-offset-1">
+                            <h3>Hypothesis: Prostate cancer is the most common type of cancer</h3>
+                            <p>Proved True: Prostate cancer is the most common type of cancer
+Prostate cancer effects the most people in spite of only effecting males 12% of all cancers. 
+Bowel, lung and breast cancer also occur significantly more commonly than other cancers.
+</p>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="graph1" style="width: 100%; height: 500px"></div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-7 col-md-offset-1">
+                            <div id="graph2" style="width: 100%; height: 500px"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Hypothesis: Prostate cancer has the highest mortality Rate</h3>
+                            <p>Proved False: Prostate cancer has a relatively low mortality rate. 
+Lung cancer is not as proliferant it is much more deadly.
+
+</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-1">
+                            <h3>Hypothesis: Prostate cancer on the increase</h3>
+                            <p>Proved False: Prostate cancer has increased year on year since 2000 but in 2010 cases had decreased by 1,901 compared to 2009.</p>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="graph3" style="width: 100%; height: 400px"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-7 col-md-offset-1">
+                            <div id="graph4" style="width: 100%; height: 400px"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Hypothesis: Lung Cancer still on the rise</h3>
+                            <p>Proved True: Unforunately lung cancer continues to increase year on year despite the introduction of plain packaging on cigarette boxes. The good news is that the rate of increase per year is decreasing.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 col-md-offset-1">
+                            <h3>Hypothesis: Males at higher risk of contracting cancer</h3>
+                            <p>Proved True: Just over 68% of all cancer diagnosises are in men while only 32% of cancers occur in women</p>
+                        </div>
+                        <div class="col-md-7">
+                            <div id="graph5" style="width: 100%; height: 400px"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            
+                <footer class="footer">
+                    <div class="container">
+                        <div class="row vcenter">
+                            <div class="col-sm-3">
+                                <p>Data Spectrum</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p>By Bikram Bora, Kim Liew and Michael Lumley</p>
+                            </div>
+                            <div class="col-sm-3">
+                                <p>Made for Foundations of Infomatics</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+    </body>
+</html>
+          
